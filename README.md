@@ -1,7 +1,7 @@
 ### Steps to reproduce
 
-- Add your own Cloudflare API key to the `main.tf`
-- Add your own Cloudflare API key to the `providers.tf`
+- Add your own Cloudflare Account ID to the `main.tf`
+- Add your own Cloudflare API token to the `providers.tf`
 - Run `terraform apply` - Worker script will be deployed
 - Change `hello-world.js` (just the console log is fine)
 - Run `terraform apply` again
